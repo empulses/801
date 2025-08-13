@@ -1,11 +1,11 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'astro-erudite',
+  title: '801',
   description:
-    'astro-erudite is a opinionated, unstyled blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  href: 'https://astro-erudite.vercel.app',
-  author: 'jktrn',
+    'I 🧡 YAOI',
+  href: 'https://yaoi.nekoweb.org',
+  author: 'empulses',
   locale: 'en-US',
   featuredPostCount: 2,
   postsPerPage: 3,
@@ -16,10 +16,10 @@ export const NAV_LINKS: SocialLink[] = [
     href: '/blog',
     label: 'blog',
   },
-  {
-    href: '/authors',
-    label: 'authors',
-  },
+  // {
+  //   href: '/authors',
+  //   label: 'authors',
+  // },
   {
     href: '/about',
     label: 'about',
@@ -28,21 +28,29 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/jktrn',
+    href: 'https://archiveofourown.org/users/salaryman',
+    label: 'AO3',
+  },
+  {
+    href: 'https://twitter.com/geongaji',
+    label: 'Twitter',
+  },
+  /*{
+    href: 'https://seiunsky.tumblr.com',
+    label: 'Tumblr',
+  },*/
+  {
+    href: 'https://github.com/empulses',
     label: 'GitHub',
   },
   {
-    href: 'https://twitter.com/enscry',
-    label: 'Twitter',
-  },
-  {
-    href: 'mailto:jason@enscribe.dev',
+    href: 'mailto:empulses@pm.me',
     label: 'Email',
   },
-  {
+  /*{
     href: '/rss.xml',
     label: 'RSS',
-  },
+  },*/
 ]
 
 export const ICON_MAP: IconMap = {
@@ -52,4 +60,5 @@ export const ICON_MAP: IconMap = {
   Twitter: 'lucide:twitter',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
+  AO3: 'lucide:notebook-pen'
 }
